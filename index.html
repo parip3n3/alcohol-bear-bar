@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEAR BAR</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index1.css">
+    <link rel="stylesheet" href="index2.css">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+</head>
+<body>
+    <audio src="Un trago.mp3" loop="3" autoplay="true"></audio>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <h1 style="color:rgb(255, 255, 255)"><center>Welcome Bar Bear</center> </h1>
+                </div><div><img src="img/espiral.gif" width="100" height="100" alt=""></div>
+                <div class="two columns u-pull-right">
+                    <ul>
+                        <li class="submenu">
+                            <img src="img/cart.png" width="50" height="50" alt="">
+                            <div id="carrito">
+                                <p class="vacio">carrito vacio</p>
+                                <table class="u-full-width">
+                                    <thead>
+                                        <tr>
+                                            <th>BEBIDA</th>
+                                            <th>NOMBRE</th>
+                                            <th>PRECIO</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <img src="img/bebida1.jpg" width="100">
+                                            </td>
+                                            <td>Silver Jose Cuervo</td>
+                                            <td>$175</td>
+                                            <td><a href="#" class="borrar-platillo" >X</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img src="img/bacardi.jpg" width="100">
+                                            </td>
+                                            <td>Bacardi Carta Blanca</td>
+                                            <td>$300</td>
+                                            <td><a href="#" class="borrar-platillo" >X</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img src="img/black.jpg" width="100">
+                                            </td>
+                                            <td>Black Label</td>
+                                            <td>$100</td>
+                                            <td><a href="#" class="borrar-platillo" >X</a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <a href="#" class="button u-full-width">vaciar carrito</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="hero">
+        <div class="container"> 
+            <div class="row">  
+                <div class="six columns">
+                    <div class="contenido-hero">
+                        <h2>Prueba nuestras nuevas Bebidas  </h2>
+                        <p>Precios comodos desde 150 $</p>
+                        <form>
+                            <input class="u-full-width" type="text" placeholder="¿Que bebida deseas?" id="buscador">
+                            <input type="submit" class="submit-buscador">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="barra">
+        <div class="container">
+            <div class="row">
+                <div class="four columns icono icono1">
+                    <p>Miles de bebidas nuevas<br>
+                    Explora nuevas bebidas</p>
+                </div>
+                <div class="four columns icono icono2">
+                    <p>Expertos atendiendolo<br>
+                    Prueba las nuevas combinaciones</p>
+                </div>
+                <div class="four columns icono icono3">
+                    <p>Bebida ilimitada<br>
+                    Prueba tu bebida favorita</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="lista-platillos" class="container">
+        <h1 class="encabezado">Pedidos en Linea</h1>
+        <h2>(+51)982589818</h2>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/1.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Red label </h4>
+                        <p>surce</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$500<span class="u-pull-right">$150</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/10.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Game of Thrones</h4>
+                        <p>ORANGE</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$120 <span class="u-pull-right">$150</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/3.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Bocci</h4>
+                        <p>sky</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$200 <span class="u-pull-right">$150</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/4.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Heineken</h4>
+                        <p>Bebida  Helada</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$530 <span class="u-pull-right">$150</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/6.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>jack Daniel</h4>
+                        <p>N.O</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$450 <span class="u-pull-right">$150</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/6.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Jack Daniel</h4>
+                        <p>ICE</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$180 <span class="u-pull-right">$150</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/1.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Finest</h4>
+                        <p>Ballantines</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$350 <span class="u-pull-right">$150</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/11.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Jin beam</h4>
+                        <p>surce</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$750 <span class="u-pull-right">$150</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/9.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>TAYLOR</h4>
+                        <p>single barely</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$250 <span class="u-pull-right">$150</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/1.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>The Glenlivet</h4>
+                        <p>EST 1824</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$560 <span class="u-pull-right">$150</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/13.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>ICE lemmon tree</h4>
+                        <p>Bebida ice</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$120 <span class="u-pull-right">$150</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/3.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Shot pop</h4>
+                        <p>slow</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$250 <span class="u-pull-right">$150</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <footer class="footer"> 
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <nav class="menu">
+                        <p style="color: #fbaf32">Redes sociales:</p>
+                        <a class="enlace" href="https://chat.whatsapp.com/JGtKXwkuKgL6hkThMQCZJw">Pedidos Por whatsapp <img src="img/wsp.png" width="80"height="60" alt=""></a>
+                        <a class="enlace" href="https://www.facebook.com/jjob.yl">Pedidos por facebook <img src="img/fb.jpg"width="80"height="60" alt=""></a>
+                        <a class="enlace" href="telefono.html">Pedidos por telefono <img src="img/telef.jpg" width="50"height="50"alt=""></a>
+                        <a class="enlace" href="#"></a>
+                    </nav>
+                </div>
+                <div class="four columns">
+                    <nav class="menu">  
+                        <a class="enlace" href="#"><h6>MENÚ</h6></a>
+                        <a class="enlace" href="registro.html">Registrate <img src="img/usua.jpg" alt="" width="50" height="50"> </a>
+                        <a class="enlace" href="https://goo.gl/maps/xctJ2RVdmyT1oJeK8">Ubicación <img src="img/ubi.jpg" width="170" height="100"alt=""></a>
+                        <a class="enlace" href="hacercade.html">Acerca de Nosotros: </a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+ <!-- Option 1: Bootstrap Bundle with Popper -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> 
+ <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    
+</body>
+</html>
